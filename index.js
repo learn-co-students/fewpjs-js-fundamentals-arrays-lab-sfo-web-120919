@@ -1,11 +1,11 @@
 
 
-const append = ["Milo", "Otis", "Garfield", "Odie"]
-
-const prepend = ["Odie", "Milo", "Otis", "Garfield"]
-
-const removeFirst = ["Otis", "Garfield"]
-
-const removeLast = ["Milo", "Otis"]
-
+const append = ["Milo", "Otis", "Garfield"]
+append.push("Odie")
+const prepend = ["Milo", "Otis", "Garfield"]
+prepend.unshift("Odie")
+const removeFirst = ["Milo", "Otis", "Garfield"]
+prepend.shift()
+const removeLast = ["Milo", "Otis", "Garfield"]
+removeLast.pop()
 
